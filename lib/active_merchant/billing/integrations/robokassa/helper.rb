@@ -43,6 +43,9 @@ module ActiveMerchant #:nodoc:
           mapping :order, 'InvId'
           mapping :description, 'Desc'
           mapping :email, 'Email'
+          mapping :return_url, 'SuccessURL'
+          mapping :notify_url, 'ResultURL'
+          mapping :cancel_url, 'FailURL'
         end
       end
     end
